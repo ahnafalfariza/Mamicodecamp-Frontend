@@ -1,0 +1,83 @@
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 14px;
+}
+
+.navbar {
+	margin-bottom: 0;
+	background: transparent;
+	border-color: transparent;
+	color: white;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
+	border-color: transparent;
+}
+
+.navbar-inverse .navbar-brand {
+	color: white;
+	font-weight: bold;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: #777;
+}
+
+.navbar-inverse .navbar-toggle {
+	border-color: white;
+}
+
+.background {
+	background-image: url("../img/back2.jpg");
+	background-color: rgba(0,0,0);
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+.jumbotron {
+	background: transparent;
+	color: white;
+}
+
+.jumbotron>.container>h1{
+	font-weight: bold;
+	color: #30c39e;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.jumbotron>.container>h3{
+	font-weight: 600;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 150%;
+}
+
+.jumbotron>.container>p{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	width: 70%;
+}
+
+.jumbotron>.container>button{
+	background: transparent;
+	color: white;
+	border-width: 2px;
+	width: 140px;
+	border-color: white;
+	font-size: 125%;
+	margin-bottom: 30px;
+}
+
+
+@media screen and (max-width : 760px)
+{
+	.jumbotron>.container>p{
+		width: 100%;
+	}
+}
