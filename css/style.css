@@ -176,10 +176,32 @@ body section{
 	margin-right: 10px;
 }
 
+.clearfix {
+  overflow: auto;
+}
+
 #experience hr{
 	border: 2px solid #000;
 	width: 50px;
 }
+
+.card-item{
+	background-color: #f5f5f5;
+}
+
+.card-item h4{
+	font-weight: 500;
+	padding-top:2px;
+	padding-bottom:2px;
+}
+
+.fill-green {
+	background-color: #30c39e;
+	color: white;
+	padding: 2px 10px;
+}
+
+
 
 
 
@@ -238,6 +260,10 @@ body section{
 
 	.title{
 		padding: 20px 0;
+	}
+
+	#experience{
+		height: 100vh;
 	}
 
 	/*#aboutme{
