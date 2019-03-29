@@ -1,37 +1,66 @@
 body{
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 14px;
+	line-height: 1.5;
+}
+
+p{
+	font-size: 125%;
+	font-weight: 300;
+}
+h1{
+	font-size: 300%;
+}
+h3{
+	font-size: 250%;
+	font-weight: 500;
+}
+h4{
+	font-size: 150%;
+	font-weight: 500;
+}
+h5{
+	font-size: 200%;
 }
 
 .navbar {
-	margin-bottom: 0;
+	padding-top: 20px;
 	background: transparent;
 	border-color: transparent;
 	color: white;
+	font-size: 120%;
 }
 
-.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
+.navbar-inverse .navbar-collapse{
 	border-color: transparent;
+}
+
+.navbar-inverse .navbar-toggle{
+	border-color: transparent;
+	margin-right: 20px;
 }
 
 .navbar-inverse .navbar-brand {
 	color: white;
 	font-weight: bold;
+	font-size: 200%;
+	padding-left: 20px;
 }
 
 .navbar-inverse .navbar-nav>li>a {
     color: white;
+	transition: 0.3s;
 }
 
 .navbar-inverse .navbar-nav>li>a:hover {
-    color: #777;
+    color: #30c39e;
 }
 
 .navbar-inverse .navbar-toggle {
 	border-color: white;
 }
 
-.background {
+.home {
 	background-image: url("../img/back2.jpg");
 	background-color: rgba(0,0,0);
 	background-position: center;
@@ -44,27 +73,26 @@ body{
 	color: white;
 }
 
-.jumbotron>.container>h1{
-	font-weight: bold;
+.jumbotron h1{
+	font-weight: 700;
 	color: #30c39e;
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
 
-.jumbotron>.container>h3{
+.jumbotron h3{
 	font-weight: 600;
 	margin-top: 10px;
 	margin-bottom: 10px;
-	font-size: 150%;
 }
 
-.jumbotron>.container>p{
+.jumbotron p{
 	margin-top: 30px;
 	margin-bottom: 30px;
 	width: 70%;
 }
 
-.jumbotron>.container>button{
+.jumbotron button{
 	background: transparent;
 	color: white;
 	border-width: 2px;
@@ -72,12 +100,132 @@ body{
 	border-color: white;
 	font-size: 125%;
 	margin-bottom: 30px;
+	transition: 0.3s;
 }
+
+.jumbotron button:hover{
+	background: #30c39e	;
+	color: white;
+	border-width: 2px;
+	width: 140px;
+	border-color: #30c39e;
+	font-size: 125%;
+	margin-bottom: 30px;
+}
+
+#aboutme{
+	margin:20px 0;
+}
+
+#aboutme h1 {
+	font-weight: 600;
+} 
+
+#aboutme hr {
+	border: 2px solid #000;
+	width: 50px;
+}
+
+#aboutme button{
+	background: #0a8ea0;
+	color: white;
+	border-width: 2px;
+	width: 200px;
+	border-color: #0a8ea0;
+	font-size: 125%;
+	transition: 0.3s;
+}
+
+.padd{
+	padding: 20px;
+	margin-bottom: 20px;
+}
+
+.float-right{
+	float: right;
+}
+
+.float-left{
+	float: left;
+}
+
+.p-thumb{
+	padding: 20px 0px;
+}
+
+
+
+
+
+
+
+
 
 
 @media screen and (max-width : 760px)
 {
-	.jumbotron>.container>p{
+	body{
+		font-size: 12px;
+	}
+	p{
+		font-size: 175%;
+		font-weight: 300;
+	}
+	h1{
+		font-size: 300%;
+	}
+	h3{
+		font-size: 250%;
+		font-weight: 500;
+	}
+	h4{
+		font-size: 200%;
+		font-weight: 500;
+	}
+	h5{
+		font-size: 200%;
+	}
+
+	.jumbotron p{
 		width: 100%;
 	}
+
+	.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
+		background: #000;
+	}
 }
+
+@media screen and (min-width : 760px)
+{
+	.home{
+		height: 100vh;
+		background-position: 50% 20%; 
+	}
+
+	.title{
+		padding: 20px 0;
+	}
+
+	.jumbotron{
+		position: absolute;
+		top: 50%; left: 50%;
+		transform: translate(-50%,-50%);
+	}
+
+	.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover{
+		background-color: transparent;
+	}
+}
+
+::-webkit-scrollbar {
+    width: 3px;
+}
+::-webkit-scrollbar-button {
+    background: #888
+}
+::-webkit-scrollbar-track-piece {
+    background: #111
+}
+::-webkit-scrollbar-thumb {
+    background: #888
+}​
