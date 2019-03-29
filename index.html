@@ -18,10 +18,10 @@
 
 <!-- Start Home -->
 
-	<section class="home">
+	<section class="home" id="Home">
 
 		<!-- Start Navbar -->
-	  	<nav class="navbar navbar-inverse navbar-static-top">
+	  	<nav class="navbar navbar-inverse navbar-fixed-top">
 	  		<div class="container">
 				<div class="navbar-header">
 					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -36,15 +36,15 @@
 				<div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
 					<ul class="nav navbar-nav">
 						<li><a href="#">Home</a></li>
-						<li><a href="#">About</a></li>
-						<li><a href="#">Services</a></li>
-						<li><a href="#">Experience</a></li>
+						<li><a href="#aboutme">About</a></li>
+						<li><a href="#services">Services</a></li>
+						<li><a href="#experience">Experience</a></li>
 						<li class="dropdown">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
 							<ul class="dropdown-menu">
-								<li><a href="#">Dropdown 1</a></li>
-								<li><a href="#">Dropdown 2</a></li>
-								<li><a href="#">Dropdown 3</a></li>
+								<li><a href="#">Blog</a></li>
+								<li><a href="#">Projects</a></li>
+								<li><a href="#">Hire me</a></li>
 							</ul>
 						</li>
 						<li><a href="#">Contact</a></li>
@@ -83,7 +83,7 @@
 					<p class="p-thumb">Vestibulum et enim volutpat, tristique sem et, placerat lectus. Nam porttitor nunc non leo elementum, nec iaculis nisl interdum. Phasellus sed sem nisi. Phasellus auctor turpis turpis, in mattis mauris finibus in. Aenean dictum purus.</p>
 					<button type="button" class="btn btn-default">Download CV<i class="fa fa-download" aria-hidden="true" style="margin-left: 10px;"></i></button>
 				</div>
-				<div class="col-md-4 padd">
+				<div class="col-md-4 padd text-center">
 					<img src="img/thum1.jpg" alt="thumbnail-image" class="img-responsive full-width">
 				</div>
 				<div class="col-md-4 padd">
@@ -113,7 +113,68 @@
 <!-- End About Me -->
 
 <!-- Start Services -->
+	<section id="services">
+		<div class="container">
+			<div class="title text-center">
+				<h1>Services</h1>
+				<hr>
+			</div>
+			<div class="row">
+				<div class="col-md-4 col-sm-6 padd">
+					<h4><i class="fa fa-cogs" aria-hidden="true"></i>UI/UX Design</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				</div>
+				<div class="col-md-4 col-sm-6 padd">
+					<h4><i class="fa fa-mobile" aria-hidden="true"></i>Mobile Apps</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				</div>
+				<div class="col-md-4 col-sm-6 padd">
+					<h4><i class="fa fa-laptop" aria-hidden="true"></i>Web Developer</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				</div>
+				<div class="col-md-4 col-sm-6 padd">
+					<h4><i class="fa fa-camera" aria-hidden="true"></i>Photoshop</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				</div>
+				<div class="col-md-4 col-sm-6 padd">
+					<h4><i class="fa fa-headphones" aria-hidden="true"></i>Software</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				</div>
+				<div class="col-md-4 col-sm-6 padd">
+					<h4><i class="fa fa-cloud" aria-hidden="true"></i>Graphic Design	</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				</div>
+			</div>
+		</div>
+	</section>
 <!-- End Services -->
+
+<!-- Start Experience -->
+	<section id="experience">
+		<div class="container">
+			<div class="title text-center">
+				<h1>Experience</h1>
+				<hr>
+			</div>
+			<div class="row">
+				<div class="col-md-4 col-sm-6">
+					<div class="card">
+						<img src="img/thum1.jpg" alt="thumbnail-image" class="img-responsive full-width">
+						<div class="card-item padd">
+							<div style="padding-top: 10px;">
+								<h4 class="float-left">Web Designer</h4>
+								<h4 class="float-right">2007-2010</h4>
+							</div>
+							<div style="clear: both; padding-top: 10px;"></div>
+							<p>Vestibulum et enim volutpat, tristique sem et, placerat lectus. Nam porttitor nunc non leo elementum, nec iaculis nisl interdum. Phasellus sed sem nisi.</p>
+							<div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+<!-- End Experience -->
 
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>

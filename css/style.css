@@ -10,6 +10,7 @@ p{
 }
 h1{
 	font-size: 300%;
+	font-weight: 600;
 }
 h3{
 	font-size: 250%;
@@ -21,6 +22,10 @@ h4{
 }
 h5{
 	font-size: 200%;
+}
+
+body section{
+	padding: 20px 0px 30px 0;
 }
 
 .navbar {
@@ -113,17 +118,13 @@ h5{
 	margin-bottom: 30px;
 }
 
-#aboutme{
-	margin:20px 0;
-}
-
-#aboutme h1 {
-	font-weight: 600;
-} 
-
 #aboutme hr {
 	border: 2px solid #000;
 	width: 50px;
+}
+
+#aboutme .img-responsive{
+	height: 300px;
 }
 
 #aboutme button{
@@ -138,7 +139,10 @@ h5{
 
 .padd{
 	padding: 20px;
-	margin-bottom: 20px;
+}
+
+.marg{
+	margin: 20px;
 }
 
 .float-right{
@@ -153,10 +157,29 @@ h5{
 	padding: 20px 0px;
 }
 
+#services{
+	background-color: #30c39e;
+	color: #fff;
+}
 
+#services h1 {
+	color: #fff;
+}
 
+#services hr {
+	border: 2px solid #fff;
+	width: 50px;
+}
 
+#services i {
+	font-size: 150%;
+	margin-right: 10px;
+}
 
+#experience hr{
+	border: 2px solid #000;
+	width: 50px;
+}
 
 
 
@@ -186,6 +209,10 @@ h5{
 		font-size: 200%;
 	}
 
+	.jumbotron {
+		padding-top: 100px;
+	}
+
 	.jumbotron p{
 		width: 100%;
 	}
@@ -197,6 +224,13 @@ h5{
 
 @media screen and (min-width : 760px)
 {
+
+	.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover{
+		background-color: transparent;
+	}
+}
+
+@media screen and (min-width : 1024px){
 	.home{
 		height: 100vh;
 		background-position: 50% 20%; 
@@ -206,16 +240,21 @@ h5{
 		padding: 20px 0;
 	}
 
-	.jumbotron{
-		position: absolute;
-		top: 50%; left: 50%;
-		transform: translate(-50%,-50%);
+	/*#aboutme{
+		height: 100vh;
 	}
 
-	.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover{
-		background-color: transparent;
+	#services{
+		height: 100vh;
+	}	
+*/
+	.jumbotron{
+		position: absolute;
+		top: 55%; left: 50%;
+		transform: translate(-50%,-50%);
 	}
 }
+
 
 ::-webkit-scrollbar {
     width: 3px;
