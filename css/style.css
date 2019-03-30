@@ -337,11 +337,6 @@ button{
 	width: 24px;
 }
 
-#contactme p{
-	font-weight: 400;
-	font-size: 100%;
-}
-
 #contactme button{
 	background-color: #0a8ea0;
 	border-color: #0a8ea0;
@@ -415,7 +410,23 @@ li > a > i:hover{
 	display: none;
 }
 
+.map{
+	padding-top: 10px;
+}
 
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
 
 @media screen and (max-width : 760px)
 {
@@ -444,7 +455,7 @@ li > a > i:hover{
 		font-size: 175%;
 	}
 
-	#contactme label{
+	#contactme .i-size , #contactme label{
 		font-size: 150%;
 	}
 
@@ -480,6 +491,16 @@ li > a > i:hover{
 
 	.form-horizontal .control-label {
 		text-align: left;
+	}
+
+	#contactme p{
+		font-weight: 400;
+		font-size: 100%;
+	}
+
+	.map{
+		padding-top: 10px;
+		padding-right: 20px;
 	}
 }
 
