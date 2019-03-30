@@ -25,7 +25,7 @@ h4{
 	font-weight: 500;
 }
 h5{
-	font-size: 200%;
+	font-size: 150%;
 }
 
 body section{
@@ -34,6 +34,8 @@ body section{
 
 hr{
 	margin-top: 0;
+	border: 2px solid #000;
+	width: 50px;
 }
 
 button{
@@ -255,8 +257,16 @@ button{
 	color: #000;
 }
 
+.form-group{
+	margin-bottom: 20px;
+}
+
 .margbottom{
 	margin-bottom: 10px;
+}
+
+.margbottom2{
+	margin-bottom: 30px;
 }
 
 #projects hr {
@@ -289,6 +299,42 @@ button{
 	color: #fff;
 }
 
+#contactme hr{
+	border: 2px solid #000;
+}
+
+#contactme h4{
+	margin-top: 0;
+	padding-bottom: 8px;
+	font-weight: 600;
+}
+
+#contactme label{
+	padding-right: 0;
+	font-weight: 600;
+}
+
+div .icon{
+	color: #30c39e;
+	width: 24px;
+}
+
+#contactme p{
+	font-weight: 400;
+	font-size: 100%;
+}
+
+#contactme button{
+	background-color: #0a8ea0;
+	border-color: #0a8ea0;
+	color: white;
+	margin-top: 10px;
+	float: right;
+	border-width: 2px;
+	width: 140px;
+	font-size: 125%;
+	transition: 0.3s;
+}
 
 
 
@@ -319,17 +365,17 @@ button{
 		font-size: 12px;
 	}
 	p{
-		font-size: 175%;
+		font-size: 150%;
 		font-weight: 300;
 	}
 	h1{
-		font-size: 300%;
-	}
-	h2{
 		font-size: 275%;
 	}
-	h3{
+	h2{
 		font-size: 250%;
+	}
+	h3{
+		font-size: 225%;
 		font-weight: 500;
 	}
 	h4{
@@ -337,7 +383,11 @@ button{
 		font-weight: 500;
 	}
 	h5{
-		font-size: 200%;
+		font-size: 175%;
+	}
+
+	#contactme label{
+		font-size: 150%;
 	}
 
 	.jumbotron {
@@ -352,6 +402,11 @@ button{
 		background: #000;
 	}
 
+	label>.icon{
+		color: #30c39e;
+		width: 25px;
+	}
+
 }
 
 @media screen and (min-width : 760px)
@@ -363,6 +418,10 @@ button{
 
 	.paragraphcrop {
 		width: 50%;
+	}
+
+	.form-horizontal .control-label {
+		text-align: left;
 	}
 }
 
