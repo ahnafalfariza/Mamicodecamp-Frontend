@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body{
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 14px;
@@ -50,7 +54,12 @@ button{
 	border-color: transparent;
 	color: white;
 	font-size: 120%;
-	transition: top 0.3s;
+	transition: 0.3s;
+	top: 0;
+}
+
+.navbar-hide {
+	top: -65%;
 }
 
 .navbar-inverse .navbar-collapse{
@@ -347,22 +356,28 @@ footer ul{
 	margin: 20px 0;
 }
 
+footer p{
+	font-size: 100%;
+}
+
 .list-inline>li{
 	padding: 3px;
 	position: relative;
 	margin: 10px 2px;
 	vertical-align: middle;
 	/*font-size: 24px;	*/
-	width: auto;
-	height: auto;
-	background-color: white;
+	width: 40px;
+	height: 40px;
+	background-color: #424242;
 }
 
 li>a>i{
+	padding-top: 10px;
 	font-size: 20px;
 	width: 20px;
 	height: 20px;
 	margin:auto;
+	color: white;
 }	
 
 
