@@ -294,7 +294,7 @@ button{
 }
 
 #hireme .b2{
-	background-color: #000;
+	background-color: #212121;
 	border-color: #000;
 	color: #fff;
 }
@@ -336,8 +336,34 @@ div .icon{
 	transition: 0.3s;
 }
 
+footer{
+	background-color: #212121;
+	color: white;
+	padding: 20px;
+}
 
+footer ul{
+	text-align: center;
+	margin: 20px 0;
+}
 
+.list-inline>li{
+	padding: 3px;
+	position: relative;
+	margin: 10px 2px;
+	vertical-align: middle;
+	/*font-size: 24px;	*/
+	width: auto;
+	height: auto;
+	background-color: white;
+}
+
+li>a>i{
+	font-size: 20px;
+	width: 20px;
+	height: 20px;
+	margin:auto;
+}	
 
 
 
