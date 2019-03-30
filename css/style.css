@@ -385,7 +385,7 @@ li>a>i{
 	transition: 0.3s;
 }
 
-li > a > i:hover{
+li:hover > a > i{
 	color: white;
 }	
 
