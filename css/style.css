@@ -403,12 +403,16 @@ li > a > i:hover{
 	padding: 8px;
 	border: 1.5px solid #424242;	
 	border-radius: 25px;
-	transition: 0.3s;
+	transition: 0.3s;	
 }
 
 .bottomicon i:hover{
 	color: white;
 	border-color: white;
+}
+
+#more, #more2, #more3{
+	display: none;
 }
 
 
