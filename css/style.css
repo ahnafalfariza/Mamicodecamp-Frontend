@@ -155,6 +155,12 @@ button{
 	transition: 0.3s;
 }
 
+#aboutme button:hover{
+	background: transparent;
+	color: #0a8ea0;
+	border-color: #0a8ea0;
+}
+
 .padd{
 	padding-top: 20px;
 	padding-bottom: 20px;
