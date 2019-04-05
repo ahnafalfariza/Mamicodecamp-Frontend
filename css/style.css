@@ -315,12 +315,26 @@ button{
 	background-color: #fff;
 	border-color: #fff;
 	color: #0a8ea0;
+	transition: 0.3s;
+}
+
+#hireme .b1:hover{
+	background-color: transparent;
+	border-color: #fff;
+	color: #fff;
 }
 
 #hireme .b2{
 	background-color: #212121;
-	border-color: #000;
+	border-color: #212121;
 	color: #fff;
+	transition: 0.3s;
+}
+
+#hireme .b2:hover{
+	background-color: transparent;
+	border-color: #212121;
+	color: #212121;
 }
 
 #contactme hr{
@@ -353,6 +367,12 @@ button{
 	width: 140px;
 	font-size: 125%;
 	transition: 0.3s;
+}
+
+#contactme button:hover{
+	background-color: transparent;
+	border-color: #0a8ea0;
+	color: #0a8ea0;
 }
 
 footer{
