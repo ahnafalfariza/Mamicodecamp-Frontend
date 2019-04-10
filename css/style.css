@@ -42,12 +42,6 @@ hr{
 	width: 50px;
 }
 
-button{
-	border-width: 2px;
-	width: 140px;
-	transition: 0.3s;
-}
-
 .home {
 	background-image: url("../img/back2.jpg");
 	background-position: center;
@@ -63,6 +57,9 @@ button{
 	font-size: 120%;
 	transition: 0.5s;
 	top: 0;
+}
+.navbar label{
+	margin: 3px 0;
 }
 
 .navbar-inverse .navbar-collapse{
@@ -535,30 +532,15 @@ li:hover > a > i{
 		height: 100vh;
 		background-position: 50% 20%; 
 	}
-
 	.title{
 		padding: 20px 0;
 	}
-
-/*	#experience{
-		min-height: 100vh;
-	}*/
-
-	/*#aboutme{
-		height: 100vh;
-	}
-
-	#services{
-		height: 100vh;
-	}	
-*/
 	.jumbotron{
 		position: absolute;
 		top: 55%; left: 50%;
 		transform: translate(-50%,-50%);
 	}
 }
-
 
 ::-webkit-scrollbar {
     width: 3px;
