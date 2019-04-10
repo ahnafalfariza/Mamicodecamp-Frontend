@@ -62,6 +62,11 @@ hr{
 	margin: 3px 0;
 }
 
+.navbar .fa-crown{
+	margin-right: 8px;
+	color: #30c39e;
+}
+
 .navbar-inverse .navbar-collapse{
 	border-color: transparent;
 }
@@ -70,6 +75,9 @@ hr{
 	color: white;
 	font-weight: bold;
 	font-size: 200%;
+	padding-top: 0;
+	padding-bottom: 0;
+	margin-top: 8px;
 }
 
 .navbar-inverse .navbar-nav>li>a {
