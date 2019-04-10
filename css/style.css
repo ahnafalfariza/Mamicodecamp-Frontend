@@ -75,9 +75,8 @@ hr{
 	color: white;
 	font-weight: bold;
 	font-size: 200%;
-	padding-top: 0;
-	padding-bottom: 0;
 	padding-top: 10px;
+	padding-bottom: 0;
 }
 
 .navbar-inverse .navbar-nav>li>a {
